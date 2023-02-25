@@ -1,13 +1,13 @@
-from instagram_interface import Instagram_I_IH
+from instagram_interface import Instagram_I_ED
 
 
 # Get a free token at www.influencerhunters.com
 TOKEN = "YOUR TOKEN HERE"
 
 #Initialize sender class 
-tt = Instagram_I_IH(token_IH_API=TOKEN)
+tt = Instagram_I_ED(token_ED_API=TOKEN)
 
-#Send the request to the IH server
+#Send the request to the ED server
 print("sending the request..")
 res, success = tt.get_user_posts_from_username(username="cristiano", depth=1, oldest_timestamp=1611308425 )
 
