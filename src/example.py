@@ -1,7 +1,7 @@
 from instagram_interface import Instagram_I_ED
 
 
-# Get a free token at www.influencerhunters.com
+# Get a free token at https://www.ensembledata.com/register
 TOKEN = "YOUR TOKEN HERE"
 
 #Initialize sender class 
