@@ -5,11 +5,11 @@ from instagram_interface import Instagram_I_ED
 TOKEN = "YOUR TOKEN HERE"
 
 #Initialize sender class 
-tt = Instagram_I_ED(token_ED_API=TOKEN)
+ig = Instagram_I_ED(token_ED_API=TOKEN)
 
 #Send the request to the ED server
 print("sending the request..")
-res, success = tt.get_user_posts_from_username(username="cristiano", depth=1, oldest_timestamp=1611308425 )
+res, success = ig.get_user_posts_from_username(username="cristiano", depth=1, oldest_timestamp=1611308425 )
 
 
 if success:
